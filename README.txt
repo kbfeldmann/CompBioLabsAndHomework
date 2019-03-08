@@ -1,1 +1,0 @@
-This repository will consist of the lab assignments for Computational Biology. 
