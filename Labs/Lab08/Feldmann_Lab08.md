@@ -28,10 +28,10 @@ _initPop_: initial population size
 }
     
 ## Example Code to Test Function
-_initPopSize_ <- 300        _initial population size_  
-_numberGeneration_ <- 1000      _number of generations model will run through_  
-_carryingCap_ <- 20000      _carrying capacity of population_  
-_growRate_ <- 0.025         _growth rate of population_  
+_initPopSize_ <- 300        _#initial population size_  
+_numberGeneration_ <- 1000      _#number of generations model will run through_  
+_carryingCap_ <- 20000      _#carrying capacity of population_  
+_growRate_ <- 0.025         _#growth rate of population_  
 
 **logGrowthModel**(_growRate_,_carryingCap_,_numberGeneration_,_initPopSize_)
 
@@ -40,7 +40,7 @@ _growRate_ <- 0.025         _growth rate of population_
 
 abundances <- **logGrowthModel**(_growRate_,_carryingCap_,_numberGeneration_,_initPopSize_)
 
-growthMatrix <- cbind(seq(1,numberGeneration), abundances)      _create the table_ 
+growthMatrix <- cbind(seq(1,numberGeneration), abundances)      _#create the table_ 
 
-write.csv(x = growthMatrix, file = "/Users/katherinefeldmann/Desktop/CU Boulder/Junior Year/Computational Biology/CompBioLabsAndHomework/Labs/Lab08/LogisticGrowthMatrix.csv", row.names = F)       _write data to a csv file_
+write.csv(x = growthMatrix, file = "/Users/katherinefeldmann/Desktop/CU Boulder/Junior Year/Computational Biology/CompBioLabsAndHomework/Labs/Lab08/LogisticGrowthMatrix.csv", row.names = F)       _#write data to a csv file_
 
