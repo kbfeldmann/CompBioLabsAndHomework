@@ -24,7 +24,7 @@ _initPop_: initial population size
 * plot(arrayGen, abundances, xlab = "Number of Generations", ylab = "Population Size")
 
 #### leave the function and return the array containing population sizes
-* return(abundances)
+* return(abundances)  
 }
     
 ## Example Code to Test Function
@@ -40,6 +40,7 @@ _growRate_ <- 0.025         _growth rate of population_
 
 abundances <- **logGrowthModel**(_growRate_,_carryingCap_,_numberGeneration_,_initPopSize_)
 
-growthMatrix <- cbind(seq(1,numberGeneration), abundances)      _create the table_  
+growthMatrix <- cbind(seq(1,numberGeneration), abundances)      _create the table_ 
+
 write.csv(x = growthMatrix, file = "/Users/katherinefeldmann/Desktop/CU Boulder/Junior Year/Computational Biology/CompBioLabsAndHomework/Labs/Lab08/LogisticGrowthMatrix.csv", row.names = F)       _write data to a csv file_
 
