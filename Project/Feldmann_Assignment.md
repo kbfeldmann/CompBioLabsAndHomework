@@ -28,8 +28,7 @@ For this project, I plan to write code in R that can produce figures scienficall
 
 To complete the independent project and accomplish this challenge, I will need to read in all 396 files and parse the data into a usable format by ggplot2. I will then need to successfully create the plots in both _pavo_ and ggplot2.
 ### Biological Question
-
-### Challenge Statement
+By creating one figure that contains eleven _wavelength (nm) vs. reflectance (%)_ plots for each plumage patch with each plot displaying the information for all three species, valuable conclusions can be drawn. Based on this figure, it can be determined what plumage patch reflects the most light within the UV spectrum and the visible light spectrum as well as what species reflects the most light in each of these spectrums. For this project, I will use this figure to determine **what plumage patch reflects the most ultraviolet light (300 - 400 nm) in each species of bird**. This information has biological implications as plumage is used to convey information in interspecific and intraspecific interactions. Therefore, determining which patch in each species reflects the most light can shed light on how species tell each other apart when finding mates or selecting territory. 
 
 ## References
 Maia R, Eliason CM, Bitton P, Doucet SM, Shawkey MD (2013) pavo: an R package for the analysis, visualization and organization of spectral data. Methods in Ecology and Evolution 4(10): 906–913. https://doi.org/10.1111/2041-210X.12069
